@@ -10,7 +10,7 @@ LeapYear <- function(year) {
     stop ("Year must be of class numeric")
   } else { 
     if (year < 1582) {
-    stop ("Given year is out of the valid range")
+    stop ("Given year is out of the valid range/or it is not a year")
   }}
   # If year is numeric and within range
   # function identifies if it was a leap year:
